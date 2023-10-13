@@ -1,0 +1,44 @@
+.w-100 {
+  width: 100%;
+}
+
+.action-btn:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+.formWrapper {
+  padding: 30px;
+  width: 400px;
+  max-width: 90%;
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  margin: 30px auto;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.tableWrapper {
+  padding: 30px;
+}
+
+.action-column {
+  width: 200px;
+  max-width: 200px;
+}
+
+.tableWrapper .notfound {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.notfound h1 {
+  margin: 0;
+  font-weight: 500;
+  color: red;
+}
